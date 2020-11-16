@@ -50,10 +50,8 @@ namespace EnthusiasticMoose
             }
             else
             {
-
+                Console.WriteLine("GoodBye");
             }
-
-
         }
 
         static void MooseReplies()
@@ -79,7 +77,6 @@ namespace EnthusiasticMoose
             responseList.Add("Yes.");
             responseList.Add("Yes – definitely.");
             responseList.Add("You may rely on it.");
-
             Random r = new Random();
             int secretNumber = r.Next(0, 19);
             object message = responseList[secretNumber];
